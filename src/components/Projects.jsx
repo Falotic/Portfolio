@@ -21,7 +21,7 @@ function Projects() {
                 techno1="JavaScript"
                 techno2="Vanilla Css"
                 code="https://github.com/Falotic/Weather_App"
-                demo="weather-app-liard-two.vercel.app"
+                demo="https://weather-app-liard-two.vercel.app"
                 icon="⛅"
               />
 
