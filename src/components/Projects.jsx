@@ -1,10 +1,9 @@
-import LandingPage from "../images/test.jpg";
-import Calculator from "../images/test.jpg";
+import ECommerce from "../images/test.jpg";
+import Admin from "../images/test.jpg";
 import ProBox from "./ProBox";
-import WeatherApp from "../images/test.jpg";
+import WeatherApp from "../images/weather-app.png";
 import ToDoList from "../images/test.jpg";
 import Chat from "../images/test.jpg";
-import Game from "../images/test.jpg";
 
 function Projects() {
   return (
@@ -16,23 +15,22 @@ function Projects() {
             <h3>Each project is a demonstration of my knowledge.</h3>
             <div className="projects-grid">
               <ProBox
-                title="Landing Page"
-                img={LandingPage}
+                title="Weather App"
+                img={WeatherApp}
                 description="Texto"
-                techno1="React"
-                techno2="SCSS"
-                code="#"
-                demo="#"
-                // scrollY="-83%"
-                icon="🚗"
+                techno1="JavaScript"
+                techno2="Vanilla Css"
+                code="https://github.com/Falotic/Weather_App"
+                demo="weather-app-liard-two.vercel.app"
+                icon="⛅"
               />
 
               <ProBox
-                title="Calculator"
-                img={Calculator}
+                title="Admin Dashboard"
+                img={Admin}
                 description="Texto"
                 techno1="React"
-                techno2="Vanila CSS"
+                techno2="Vanilla CSS"
                 code="#"
                 demo="#"
                 // scrollY="-74%"
@@ -41,8 +39,8 @@ function Projects() {
               />
 
               <ProBox
-                title="Weather App"
-                img={WeatherApp}
+                title="Todo Task Manager"
+                img={ToDoList}
                 description="Texto"
                 techno1="React"
                 techno2="Bootstrap"
@@ -53,8 +51,8 @@ function Projects() {
               />
 
               <ProBox
-                title="To Do List"
-                img={ToDoList}
+                title="E-Commerce Web App"
+                img={ECommerce}
                 description="Texto"
                 techno1="React"
                 techno2="Bootstrap"
@@ -75,19 +73,6 @@ function Projects() {
                 demo="#"
                 // scrollY="-83%"
                 icon="📱"
-              />
-
-              <ProBox
-                title="Web Game"
-                img={Game}
-                description="Texto"
-                techno1="React"
-                techno2="SCSS"
-                code="#"
-                demo="#"
-                // scrollY="-83%"
-                icon="🎮"
-                cName="reversed-proj"
               />
             </div>
           </div>
