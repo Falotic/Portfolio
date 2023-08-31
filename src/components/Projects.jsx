@@ -1,5 +1,5 @@
 import ECommerce from "../images/test.jpg";
-import Admin from "../images/test.jpg";
+import Admin from "../images/admin-dashboard.png";
 import ProBox from "./ProBox";
 import WeatherApp from "../images/weather-app.png";
 import ToDoList from "../images/test.jpg";
@@ -17,7 +17,7 @@ function Projects() {
               <ProBox
                 title="Weather App"
                 img={WeatherApp}
-                description="Texto"
+                description="Weather App provide users with accurate and up-to-date weather information for their current location and other locations they are interested in."
                 techno1="JavaScript"
                 techno2="Vanilla Css"
                 code="https://github.com/Falotic/Weather_App"
@@ -28,13 +28,12 @@ function Projects() {
               <ProBox
                 title="Admin Dashboard"
                 img={Admin}
-                description="Texto"
+                description="COMPLETE React Admin Dashboard App | React, Material UI, Data Grid, Light & Dark Mode"
                 techno1="React"
-                techno2="Vanilla CSS"
-                code="#"
-                demo="#"
-                // scrollY="-74%"
-                icon=""
+                techno2="CSS"
+                code="https://github.com/Falotic/Admin-Dashboard.git"
+                demo="https://admin-dashboard-ten-rose.vercel.app"
+                icon="💻"
                 cName="reversed-proj"
               />
 
