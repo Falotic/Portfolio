@@ -2,7 +2,7 @@ import ECommerce from "../images/test.jpg";
 import Admin from "../images/admin-dashboard.png";
 import ProBox from "./ProBox";
 import WeatherApp from "../images/weather-app.png";
-import ToDoList from "../images/test.jpg";
+import ToDoList from "../images/Todo_task.png";
 import Chat from "../images/test.jpg";
 
 function Projects() {
@@ -40,13 +40,12 @@ function Projects() {
               <ProBox
                 title="Todo Task Manager"
                 img={ToDoList}
-                description="Texto"
+                description="Responsive todo task manager whit different type of features "
                 techno1="React"
-                techno2="Bootstrap"
-                code="#"
-                demo="#"
-                // scrollY="-89%"
-                icon="⛅"
+                techno2="Tailwind"
+                code="https://github.com/Falotic/Todo-Task-Manager"
+                demo="https://todo-task-manager-eight.vercel.app"
+                icon="📋"
               />
 
               <ProBox
