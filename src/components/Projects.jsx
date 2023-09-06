@@ -1,9 +1,9 @@
-import ECommerce from "../images/test.jpg";
+import ECommerce from "../images/localhost_3000_.png";
 import Admin from "../images/admin-dashboard.png";
 import ProBox from "./ProBox";
 import WeatherApp from "../images/weather-app.png";
 import ToDoList from "../images/Todo_task.png";
-import Chat from "../images/test.jpg";
+import Chat from "../images/text-app.png";
 
 function Projects() {
   return (
@@ -51,13 +51,13 @@ function Projects() {
               <ProBox
                 title="E-Commerce Web App"
                 img={ECommerce}
-                description="Texto"
+                description="With a focus on simplicity and clean design, this store prioritize user experience, making it easy for customers to find and purchase the products they need."
                 techno1="React"
-                techno2="Bootstrap"
-                code="#"
-                demo="#"
-                // scrollY="-71%"
-                icon="📝"
+                techno2="Vanilla css"
+                code="https://github.com/Falotic/EComerce_Web_App"
+                demo="https://e-comerce-web-app.vercel.app"
+                scrollY="-71%"
+                icon="🛒"
                 cName="reversed-proj"
               />
 
@@ -66,10 +66,9 @@ function Projects() {
                 img={Chat}
                 description="Texto"
                 techno1="React"
-                techno2="SCSS"
-                code="#"
-                demo="#"
-                // scrollY="-83%"
+                techno2="vanilla css"
+                code="https://github.com/Falotic/Chat_Web_App"
+                demo="https://chat-web-app-taupe.vercel.app"
                 icon="📱"
               />
             </div>
