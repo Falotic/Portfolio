@@ -64,7 +64,7 @@ function Projects() {
               <ProBox
                 title="Real Time Chat Application"
                 img={Chat}
-                description="Texto"
+                description="Chat Application using react and firebase whit a google logging and a simple interface"
                 techno1="React"
                 techno2="vanilla css"
                 code="https://github.com/Falotic/Chat_Web_App"
